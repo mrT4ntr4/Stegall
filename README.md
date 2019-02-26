@@ -34,11 +34,11 @@ It is made keeping CTF challenges in mind.
 * Audacity
 * SoX 
 
-# Requirements
+## Requirements
 
 Python 2.7.*  
 
-This is the X-Factor for this tool. XD
+This is the X-Factor for this tool. XD  
 Stegall takes care of everything else...
 
 ## Usage
@@ -82,4 +82,11 @@ Also, Run this script as R00t if you want to use a tool which is not installed
 
 ## Acknowledgements
 
-Credit for all the tools stegall uses, go to their original authors.  
+Credit for all the tools stegall uses, goes to their original authors.  
+
+## How To Contribute
+
+If you face any problem with the script, feel free to submit an issue.  
+If you have any new ideas about tools or something else, you can submit a pull request.
+
+Also I'd love some feedback !!
