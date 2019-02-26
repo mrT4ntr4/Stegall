@@ -8,7 +8,8 @@ import stegall as stg
 
 prog = 'pngcheck'
 
-def dwn_pngcsum():
+def dwn_pngcsum(prog2):
+	stg.dep_check()
 	stg.download("http://schaik.com/png/pngcsum/pngcsum-v01.tar.gz","pngcsum-v01.tar.gz")
 	sb.call(["tar","-xvf", "pngcsum-v01.tar.gz"])
 	os.system('chmod +x '+prog2)						
@@ -53,7 +54,7 @@ def launch(arg2):
 
 		except OSError as e:
 			if e.errno == os.errno.ENOENT:
-				dwn_pngcsum()				
+				dwn_pngcsum('pngcsum')				
 
 
 
